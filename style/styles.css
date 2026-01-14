@@ -1,0 +1,14 @@
+header{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border: 5px solid green;
+    padding: 50px;
+    box-shadow: 5px 10px 15px yellowgreen;
+    text-shadow: 5px 10px 15px black;
+    background-image: url(../Assests/image/html5update.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
