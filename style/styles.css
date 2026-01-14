@@ -1,4 +1,4 @@
-header{
+/* header{
     color: white;
     font-weight: 700;
     text-align: center;
@@ -11,4 +11,22 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     
+} */
+
+nav > ul > li{
+     display: inline;
+     margin-left: 15px;
+}
+
+li > a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;    
+}
+
+footer > p> a {
+    text-decoration: none;
 }
