@@ -84,6 +84,65 @@
                </p>
             </footer>
         </article>
+        <article>
+            <section>
+                <h2>Please full up the form</h2>
+                <form>
+                    <label for="name">Your name:
+                    <input type="text" id="name"  placeholder="Your Name">
+                    </label>
+                    <label for="email">Your Email:
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                    </label>
+                    <label for="password">Your password:
+                        <input type="password" id="password" placeholder="Your Password">
+                    </label>
+                    <label for="phone">Phone:
+                        <input type="tel" name="phone" id="phone" placeholder="Phone number">
+                    </label>
+
+                    <!-- For radio -->
+                    <fieldset>
+                        <!-- fieldset use for Groups related form controls together -->
+                        <legend> Pick one pitha</legend>
+                        <!-- Legend is a title/description for the fieldset -->
+                        <label for="chitoy">
+                            <input type="radio" name="pitha" id="chitoy">chitoy
+                        </label>
+                        <label for="bapa">
+                            <input type="radio" name="pitha" id="bapa"> bapa
+                        </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                     <!-- VERY IMPORTANT - need to give the name same for every input for label (fieldset only) otherwise it will not allow to select one -->
+                    </fieldset>
+
+                    <!-- For Checkbox -->
+                     <!-- For Checkbox name attribute not required -->
+                    <fieldset>
+                        <legend>Pick one or more borta</legend>
+                        <label for="sorisa">
+                            <input type="checkbox" id="sorisa">Sorisa
+                        </label>
+                        <label for="shutki">
+                            <input type="checkbox"  id="shutki">Shutki
+                        </label>
+                        <label for="chilli">
+                            <input type="checkbox"  id="chilli">Chilli
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Instrction</legend>
+                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                    </fieldset>
+                    <br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </article>
+            
     </main>
 
     <footer>

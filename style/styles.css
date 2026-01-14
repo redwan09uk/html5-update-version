@@ -30,3 +30,9 @@ footer{
 footer > p> a {
     text-decoration: none;
 }
+
+label{
+    display: block;    
+    /* display: block; helps to place line one after down another. If I remove this it will be place inline */
+    margin-bottom: 10px;
+}
