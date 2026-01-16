@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Table practice</title>
     <link rel="stylesheet" href="practice.css">
 </head>
+
 <body>
-    
+
     <header>
 
     </header>
 
     <main>
+        <hr>
         <article>
             <section class="head">
-            <h4>Search your image here: 
-            <label for="search">
-            <input type="search" name="search" id="search"></h4>
-            </label>
-            <button>Search</button>
+                <h4>Search your image here:
+                    <label for="search">
+                        <input type="search" name="search" id="search">
+                </h4>
+                </label>
+                <button>Search</button>
             </section>
-        
-        <section>
-            <figure>
-                <img src="../Assests/image/panda photo.jpg" alt="panda-photo" height="300">
-            </figure>
-            <a href="https://www.vecteezy.com/free-vector/kung-fu-panda" target="_blank">For more click here</a>
-        </section>
-        <hr>
-        <section class="form">
-            <form>
-                <p>Feedback From:</p>
-                <label for="name">Name:
-                   <input type="text" name="name" id="name">
-                </label>
-                <label for="date">Date:
-                    <input type="date" name="date" id="date">
-                </label>
-                <label for="comment">Comment:
-                <textarea name="comment" id="comment" cols="40" rows="4"></textarea>
-                </label>   
-                <input type="submit" value="Submit"> 
-            </form>
 
-        </section>
+            <section>
+                <figure>
+                    <img src="../Assests/image/panda photo.jpg" alt="panda-photo" height="300">
+                </figure>
+                <a href="https://www.vecteezy.com/free-vector/kung-fu-panda" target="_blank">For more click here</a>
+            </section>
+            <hr>
+            <section class="form">
+                <form>
+                    <p>Feedback From:</p>
+                    <label for="name">Name:
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <label for="date">Date:
+                        <input type="date" name="date" id="date">
+                    </label>
+                    <label for="comment">Comment:
+                        <textarea name="comment" id="comment" cols="40" rows="4"></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
         </article>
-    </header>
+
+        <article>
+               <section>
+                 <form>
+                    <label for="feedback">
+                  <fieldset>
+                    <legend>Feedback Form</legend>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                  </fieldset>
+                  </label>
+                  </form>
+               </section>
+               <section>
+                  <form class="form">
+                       <label for="rate" class="rate">Participant Rate:
+
+                         <select name="rate" id="rate">
+                            <option value="rate">Good</option>
+                            <option value="rate">Excelent</option>
+                            <option value="rate">Average</option>
+                            <option value="rate">Poor</option>
+                            <option value="rate">Bad</option>
+                         </select>
+                       </label>
+                       <input type="submit" value="Submit">
+                       <input type="reset" value="Reset">
+                  </form>
+               </section>
+        </article>
 
     </main>
 
@@ -54,6 +85,7 @@
 
 
     </footer>
-    
+
 </body>
+
 </html>
