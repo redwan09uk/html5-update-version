@@ -1,38 +1,13 @@
-/* header{
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    border: 5px solid green;
-    padding: 50px;
-    box-shadow: 5px 10px 15px yellowgreen;
-    text-shadow: 5px 10px 15px black;
-    background-image: url(../Assests/image/html5update.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-} */
-
-nav > ul > li{
-     display: inline;
-     margin-left: 15px;
+table{
+    border-collapse: collapse;
 }
 
-li > a{
-    text-decoration: none;
-}
-
-footer{
-    margin-top: 30px;
-    text-align: center;    
-}
-
-footer > p> a {
-    text-decoration: none;
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
 }
 
 label{
-    display: block;    
-    /* display: block; helps to place line one after down another. If I remove this it will be place inline */
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 20px;
 }

@@ -1,0 +1,21 @@
+.head{
+    display: flex;    
+    gap: 5px;
+}
+
+.head button{
+    height: 20px;
+    margin-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+
+a{
+    font-weight: bold;
+}
+
+.form label{
+    display:block;
+    margin-bottom: 15px;
+}
