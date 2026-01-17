@@ -1,0 +1,26 @@
+
+table, th, td{
+        border: 1px solid brown;
+        /* full table , th and table data got border here */
+        /* border-collapse: collapse; 
+        border-collapse: collapse - it will remove the individual set borders */
+        border-collapse: separate ;
+        
+}
+
+table{
+     border-spacing: 15px;
+     /* The CSS border-spacing property sets the distance between the borders of adjacent cells.
+      Note: This property works only when border-collapse is set to "separate". */
+}
+
+th, td{
+    padding: 10px; 
+    /* padding helps to space between the border and the content in a table */
+    text-align: center;
+}
+
+.h3{
+    margin-left: 120px;
+}
+
