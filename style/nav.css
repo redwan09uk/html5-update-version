@@ -9,12 +9,13 @@ nav li{
 }
 
 nav li:hover{
-    background-color: lightcoral;
+    background-color: rgb(36, 34, 34);
 }
 
 nav li a{
     text-decoration: none;
-    color: black;
+    color:crimson;
+    font-weight: bold;
 }
 
 .foot{
