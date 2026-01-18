@@ -19,7 +19,9 @@ a{
 }
 
 .form label{
-    display:block;
+    /* display:block; */
+    display: flex;
+    /* align-items: start; */
     margin-bottom: 15px;
 }
 
